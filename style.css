@@ -168,7 +168,7 @@ select {
   align-items: stretch;
   gap: 20px;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -203,10 +203,19 @@ select {
 
 .movie p.text-center {
   font-size: 18px;
-  font-weight: bold;
+
   padding: 5px;
   margin-bottom: 10px;
   text-align: center;
+
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-movie-cartelera {
