@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Lumax</title>
   </head>
+
   <body>
     <header>
       <h1>logo</h1>
@@ -31,11 +32,11 @@
     </header>
     <div class="slider">
       <ul>
-        <li><img src="recursos/ballena.jpg" alt="" /></li>
-        <li><img src="recursos/eva.png" alt="" /></li>
-        <li><img src="recursos/juegoshambre.jpg" alt="" /></li>
-        <li><img src="recursos/naza.jpg" alt="" /></li>
-        <li><img src="recursos/plumas.jpg" alt="" /></li>
+        <li><img src="recursos/ballena.jpg" alt="ballena" /></li>
+        <li><img src="recursos/eva.png" alt="eva" /></li>
+        <li><img src="recursos/juegoshambre.jpg" alt="juego de hambre" /></li>
+        <li><img src="recursos/naza.jpg" alt="naza" /></li>
+        <li><img src="recursos/plumas.jpg" alt="plumas" /></li>
       </ul>
     </div>
 
@@ -56,49 +57,54 @@
     <div class="cartelera">
       <h1>Cartelera</h1>
     </div>
+    <div id="detalles-pelicula" hidden>
+      <h2 id="nombre-pelicula"></h2>
+      <p id="mensaje-pelicula"></p>
+      <button id="cerrar-detalles">Cerrar</button>
+    </div>
     <hr />
     <div class="movies-list py-4">
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/nazas.jpg" alt="" />
+        <img src="recursos/nazas.jpg" alt="nazas" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/clayp.jpg" alt="" />
+        <img src="recursos/clayp.jpg" alt="clayp" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/doomp.jpg" alt="" />
+        <img src="recursos/doomp.jpg" alt="doomp" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/duneP.jpg" alt="" />
+        <img src="recursos/duneP.jpg" alt="duneP" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/gatop.jpg" alt="" />
+        <img src="recursos/gatop.jpg" alt="gatop" />
       </div>
     </div>
     <div class="movies-list py-4">
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/duneP.jpg" alt="" />
+        <img src="recursos/duneP.jpg" alt="duneP" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/clayp.jpg" alt="" />
+        <img src="recursos/clayp.jpg" alt="clayp" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/doomp.jpg" alt="" />
+        <img src="recursos/doomp.jpg" alt="doomp" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/duneP.jpg" alt="" />
+        <img src="recursos/duneP.jpg" alt="duneP" />
       </div>
       <div class="movie">
         <p class="text-center text-movie-cartelera">EN CARTELERA</p>
-        <img src="recursos/gatop.jpg" alt="" />
+        <img src="recursos/gatop.jpg" alt="gatop" />
       </div>
     </div>
 
@@ -118,6 +124,7 @@
         </li>
       </ul>
     </footer>
+    <script src="javascript.js"></script>
   </body>
 </html>
 

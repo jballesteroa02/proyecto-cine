@@ -129,7 +129,7 @@ nav a:hover {
   display: inline-block;
   text-decoration: none;
   margin: 5px 10px;
-  opacity: 0, 75;
+  opacity: 0.75;
   transition: 0.3s;
 }
 .custom-select {
@@ -223,6 +223,27 @@ select {
   font-weight: bold !important;
   font-size: 14px !important;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
+}
+
+#detalles-pelicula {
+  background-color: #023e8a;
+  color: white;
+  padding: 25px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 12px;
+}
+
+#detalles-pelicula[hidden] {
+  display: none;
+}
+
+#cerrar-detalles {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
